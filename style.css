@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    color: white;
+    background-image: url(https://media.istockphoto.com/id/836875834/pt/foto/blur-colors-abstract-background.jpg?s=612x612&w=0&k=20&c=5zgSm1lHEac9adHaFbvLGr80BwzKUKvDJ71xIl-Mo_M=);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.links {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: lightgreen;
+    color: green;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.links img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+}
